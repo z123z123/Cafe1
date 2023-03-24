@@ -131,20 +131,17 @@ nav .fa{
         cursor: pointer;
     }
 
-    *{
-box-sizing: border-box;
-    }
+   .container{
+    display: flex;
+    justify-content: center;
+   }
 
     .column{
-        float: left;
-        width: 33.33%;
-        padding: 24px;
-        background-color: pink;
+    width: 33.33%;        
+    background-color: pink;
+    height: 300px;
+    text-align: center;
     }
 
-    .row{
-        content: "";
-        display: table;
-        clear: both;
-    }
+   
 }
